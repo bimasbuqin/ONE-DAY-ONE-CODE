@@ -1,4 +1,4 @@
-while True:    
+while True :   
     print ("KALKULATOR NOPENG")
     print ("Silahkan pilih operasi:")
     print ("1. Penjumlahan")
@@ -11,17 +11,17 @@ while True:
         angka1 = int(input("Masukan angka: "))
         angka2 = int(input("Masukan angka: "))
         hasil = angka1 + angka2
-        print (hasil)
+        print ("hasil dari penjumlahan", angka1, "dengan", angka2, "adalah", hasil)
     if pilihan == "2" :
         angka1 = int(input("Masukan angka: "))
         angka2 = int(input("Masukan angka: "))
         hasil = angka1 - angka2
-        print (hasil)
+        print ("hasil dari pengurangan", angka1, "dengan", angka2, "adalah", hasil)
     if pilihan == "3" :
         angka1 = int(input("Masukan angka: "))
         angka2 = int(input("Masukan angka: "))
         hasil = angka1 * angka2
-        print (hasil)
+        print ("hasil dari perkalian", angka1, "dengan", angka2, "adalah", hasil)
     if pilihan == "4" :
         angka1 = int(input("Masukan angka: "))
         angka2 = int(input("Masukan angka: "))
@@ -31,7 +31,7 @@ while True:
             print ("invalid")
         else :
             hasil = angka1 // angka2
-            print (hasil)
+            print ("hasil dari pembagian", angka1, "dengan", angka2, "adalah", hasil)
     if pilihan == "5" :
         print ("Keluar dari kalkulator")
         break
